@@ -2,6 +2,10 @@
 
 Lightweight, Zero-Dependency PEM encoder and decoder.
 
+Built by [The Root Company](https://therootcompany.com)
+for [Greenlock](https://greenlock.domains)
+and [ACME.js](https://git.rootprojects.org/root/acme.js)
+
 | ~300b gzipped
 | ~650b minified
 | ~1k full
@@ -13,8 +17,6 @@ Lightweight, Zero-Dependency PEM encoder and decoder.
     -   [x] Node.js
     -   [x] Browsers
 
-# Support
-
 This library supports PEM, which is pretty boring on its own.
 
 Most likely you are also interested in some of the following:
@@ -24,6 +26,9 @@ Most likely you are also interested in some of the following:
     -   EC / ECDSA
 -   [x509.js](https://git.rootprojects.org/root/x509.js)
 -   [asn1.js](https://git.rootprojects.org/root/asn1.js)
+
+Want to [contribute](#contributions)?
+Need [commercial support](#commercial-support)?
 
 # Usage
 
@@ -66,13 +71,16 @@ SGVsbG8sIOS4lueVjCE=
 
 # Install
 
-## Node / Webpack
+This works equally well in Browsers and Node.js,
+but has slightly different code.
+
+## Node (and Webpack)
 
 ```js
 npm install -g @root/pem
 ```
 
-## Browsers
+## Browsers (Vanilla JS)
 
 ```html
 <script src="https://unpkg.com/@root/pem/dist/pem.all.js"></script>
@@ -115,7 +123,39 @@ keys and certificates such as:
     -   [x] PKCS#8 (RSA and ECDSA Keypairs)
 -   [x] SEC#1 (ECDSARSA Public and Private Keys)
 
+# Contributions
+
+[Root](https://therootcompany.com) is a collection of experts
+who trust each other, enjoy working together, and communally share work.
+
+Our goal is to operate as a sustainable community.
+
+Your contributions - both in code and _especially_ monetarily -
+help to not just this project, but also our broader work
+of [projects](https://rootprojects.org) that fuel the **Indie Web**.
+
+We welcome your support and participation in our community:
+
+-   Paypal: [\$5](https://paypal.me/rootprojects/5) [\$10](https://paypal.me/rootprojects/10) Any amount: <paypal@therootcompany.com>
+-   Patreon: <https://patreon.com/rootprojects>
+
+We chat on [Keybase#rootprojects](https://keybase.io/team/rootprojects)
+
+# Commercial Support
+
+Do you need...
+
+-   more features?
+-   bugfixes, on _your_ timeline?
+-   custom code, built by experts?
+-   commercial support and licensing?
+
+Contact <aj@therootcompany.com> for support options.
+
 # Legal
+
+Copyright [AJ ONeal](https://coolaj86.com),
+[Root](https://therootcompany.com) 2018-2019
 
 MPL-2.0 |
 [Terms of Use](https://therootcompany.com/legal/#terms) |
