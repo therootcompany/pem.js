@@ -1,21 +1,21 @@
 # @root/pem
 
-Lightweight, Zero-Dependency PEM encoder and decoder.
-
 Built by [The Root Company](https://therootcompany.com)
 for [Greenlock](https://greenlock.domains)
 and [ACME.js](https://git.rootprojects.org/root/acme.js)
+
+Lightweight, Zero-Dependency PEM encoder and decoder.
 
 | ~300b gzipped
 | ~650b minified
 | ~1k full
 |
 
--   [x] VanillaJS
--   [x] Zero-Dependency
+-   [x] Zero Dependencies
 -   [x] Universal Support
     -   [x] Node.js
     -   [x] Browsers
+-   [x] VanillaJS
 
 This library supports PEM, which is pretty boring on its own.
 
@@ -125,8 +125,18 @@ keys and certificates such as:
 
 # Contributions
 
+Did this project save you some time? Maybe make your day? Even save the day?
+
+Please say "thanks" via Paypal or Patreon:
+
+-   Paypal: [\$5](https://paypal.me/rootprojects/5) | [\$10](https://paypal.me/rootprojects/10) | Any amount: <paypal@therootcompany.com>
+-   Patreon: <https://patreon.com/rootprojects>
+
+Where does your contribution go?
+
 [Root](https://therootcompany.com) is a collection of experts
-who trust each other, enjoy working together, and communally share work.
+who trust each other and enjoy working together on deep-tech,
+Indie Web projects.
 
 Our goal is to operate as a sustainable community.
 
@@ -134,12 +144,8 @@ Your contributions - both in code and _especially_ monetarily -
 help to not just this project, but also our broader work
 of [projects](https://rootprojects.org) that fuel the **Indie Web**.
 
-We welcome your support and participation in our community:
-
--   Paypal: [\$5](https://paypal.me/rootprojects/5) [\$10](https://paypal.me/rootprojects/10) Any amount: <paypal@therootcompany.com>
--   Patreon: <https://patreon.com/rootprojects>
-
-We chat on [Keybase#rootprojects](https://keybase.io/team/rootprojects)
+Also, we chat on [Keybase](https://keybase.io)
+in [#rootprojects](https://keybase.io/team/rootprojects)
 
 # Commercial Support
 
