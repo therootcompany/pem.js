@@ -76,8 +76,22 @@ but has slightly different code.
 
 ## Node (and Webpack)
 
+```bash
+npm install --save @root/pem
+```
+
 ```js
-npm install -g @root/pem
+var PEM = require('@root/pem');
+```
+
+```js
+// just the packer
+var PEM = require('@root/pem/packer');
+```
+
+```js
+// just the parser
+var PEM = require('@root/pem/parser');
 ```
 
 ## Browsers (Vanilla JS)

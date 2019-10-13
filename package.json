@@ -1,11 +1,17 @@
 {
 	"name": "@root/pem",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "VanillaJS, Lightweight, Zero-Dependency, PEM encoder and decoder.",
 	"main": "index.js",
 	"browser": {
 		"./node/native.js": "./browser/native.js"
 	},
+	"files": [
+		"*.js",
+		"node",
+		"browser",
+		"dist"
+	],
 	"scripts": {
 		"test": "node tests"
 	},
